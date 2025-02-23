@@ -3,19 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import LazyLoad from "react-lazyload";
 export default function Grid({ src, profile, nama, folowers, post, href }) {
     const [loaded, setLoaded] = useState(false);
-    const [play, setPlay] = useState(false);
 
-    useEffect(() => {
-        let handler = (event) => {
-            if (videoRef.current && !videoRef.current.contains(event.target)) {
-                setPlay(false);
-            }
-        };
-        document.addEventListener("mousedown", handler);
-        return () => {
-            document.removeEventListener("mousedown", handler);
-        };
-    }, []);
     return (
         <div className=" bg-white shadow-gray-400 shadow-md rounded-md flex flex-col items-center justify-center overflow-hidden relative">
             {!loaded && (
