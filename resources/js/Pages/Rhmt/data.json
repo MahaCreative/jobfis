@@ -1,0 +1,179 @@
+{
+    "daftar": [
+        {
+            "id": 1,
+            "profile": "diandrasahara/profile.jpg",
+            "name": "Diandra Sahara",
+            "followers": 457,
+            "video": [
+                "diandrasahara/2.mp4",
+                "diandrasahara/3.mp4",
+                "diandrasahara/4.mp4",
+                "diandrasahara/5.mp4",
+                "diandrasahara/6.mp4",
+                "diandrasahara/7.mp4",
+                "diandrasahara/8.mp4",
+                "diandrasahara/9.mp4",
+                "diandrasahara/10.mp4",
+                "diandrasahara/11.mp4",
+                "diandrasahara/12.mp4",
+                "diandrasahara/13.mp4",
+                "diandrasahara/14.mp4",
+                "diandrasahara/15.mp4",
+                "diandrasahara/16.mp4",
+                "diandrasahara/17.mp4",
+                "diandrasahara/18.mp4",
+                "diandrasahara/19.mp4",
+                "diandrasahara/20.mp4",
+                "diandrasahara/21.mp4",
+                "diandrasahara/22.mp4",
+                "diandrasahara/23.mp4",
+                "diandrasahara/24.mp4",
+                "diandrasahara/25.mp4",
+                "diandrasahara/26.mp4",
+                "diandrasahara/27.mp4",
+                "diandrasahara/28.mp4",
+                "diandrasahara/29.mp4",
+                "diandrasahara/30.mp4",
+                "diandrasahara/31.mp4",
+                "diandrasahara/32.mp4",
+                "diandrasahara/33.mp4",
+                "diandrasahara/34.mp4",
+                "diandrasahara/35.mp4"
+            ]
+        },
+        {
+            "id": 2,
+            "profile": "hanabi/profile.jpg",
+            "name": "Hanabi Adellia Zahra",
+            "followers": 102,
+            "video": [
+                "hanabi/1.mp4",
+                "hanabi/2.mp4",
+                "hanabi/3.mp4",
+                "hanabi/4.mp4",
+                "hanabi/5.mp4",
+                "hanabi/6.mp4",
+                "hanabi/7.mp4",
+                "hanabi/8.mp4",
+                "hanabi/9.mp4",
+                "hanabi/10.mp4",
+                "hanabi/11.mp4"
+            ]
+        },
+        {
+            "id": 3,
+            "profile": "imel/profile.jpg",
+            "name": "Imel Safitri",
+            "followers": 323,
+            "video": [
+                "imel/2.mp4",
+                "imel/3.mp4",
+                "imel/4.mp4",
+                "imel/5.mp4",
+                "imel/6.mp4",
+                "imel/7.mp4",
+                "imel/8.mp4",
+                "imel/9.mp4",
+                "imel/10.mp4",
+                "imel/11.mp4",
+                "imel/12.mp4",
+                "imel/13.mp4",
+                "imel/14.mp4",
+                "imel/15.mp4",
+                "imel/16.mp4",
+                "imel/17.mp4",
+                "imel/18.mp4",
+                "imel/19.mp4",
+                "imel/20.mp4"
+            ]
+        },
+        {
+            "id": 4,
+            "profile": "bela/profile.jpg",
+            "name": "Bela Cantika",
+            "followers": 68,
+            "video": [
+                "bela/1.mp4",
+                "bela/2.mp4",
+                "bela/3.mp4",
+                "bela/4.mp4",
+                "bela/5.mp4",
+                "bela/6.mp4",
+                "bela/7.mp4",
+                "bela/8.mp4",
+                "bela/9.mp4",
+                "bela/10.mp4"
+            ]
+        },
+        {
+            "id": 5,
+            "profile": "cintya/profile.jpg",
+            "name": "Cintya Nikata",
+            "followers": 418,
+            "video": [
+                "cintya/1.mp4",
+                "cintya/2.mp4",
+                "cintya/3.mp4",
+                "cintya/4.mp4",
+                "cintya/5.mp4",
+                "cintya/6.mp4",
+                "cintya/7.mp4",
+                "cintya/8.mp4"
+            ]
+        },
+        {
+            "id": 6,
+            "profile": "thy/profile.jpg",
+            "name": "Thy Thyfani",
+            "followers": 763,
+            "video": [
+                "thy/1.mp4",
+                "thy/2.mp4",
+                "thy/3.mp4",
+                "thy/4.mp4",
+                "thy/5.mp4",
+                "thy/6.mp4",
+                "thy/7.mp4",
+                "thy/8.mp4",
+                "thy/9.mp4",
+                "thy/10.mp4",
+                "thy/11.mp4",
+                "thy/12.mp4",
+                "thy/13.mp4"
+            ]
+        },
+        {
+            "id": 7,
+            "profile": "ica/profile.jpg",
+            "name": "Ica Vania",
+            "followers": 153,
+            "video": [
+                "ica/1.mp4",
+                "ica/2.mp4",
+                "ica/3.mp4",
+                "ica/4.mp4",
+                "ica/5.mp4",
+                "ica/6.mp4",
+                "ica/7.mp4",
+                "ica/8.mp4",
+                "ica/9.mp4"
+            ]
+        },
+        {
+            "id": 8,
+            "profile": "eunicet/profile.jpg",
+            "name": "Eunicet Joa",
+            "followers": 78.3,
+            "video": [
+                "eunicet/1.mp4",
+                "eunicet/2.mp4",
+                "eunicet/3.mp4",
+                "eunicet/4.mp4",
+                "eunicet/5.mp4",
+                "eunicet/6.mp4",
+                "eunicet/7.mp4"
+            ]
+        }
+    ]
+}
