@@ -10,7 +10,10 @@ export default function Rhmt2Layout({ children }) {
                 {data.daftar[1].video.map((item, key) => (
                     <Grid key={key} src={"/" + item} />
                 ))}
-                {data.daftar[2].video.map((item, key) => (
+                {data.daftar[3].video.map((item, key) => (
+                    <Grid key={key} src={"/" + item} />
+                ))}
+                {data.daftar[4].video.map((item, key) => (
                     <Grid key={key} src={"/" + item} />
                 ))}
             </div>
