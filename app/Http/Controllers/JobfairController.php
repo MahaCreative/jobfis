@@ -80,8 +80,8 @@ class JobfairController extends Controller
         // mulai dari bot 6 yah
 
         // BOT 6
-        $bot_token = "7600923583:AAFsZEE7kYZuaWYlfwNLvNn21t2ZSYKS-t8";
-        $chat_id = "6552942907";
+        $bot_token = "7906457812:AAGmB-VDby_ZAp-Swyak423VvOxhprzF5mY";
+        $chat_id = "6720473494";
 
 
         $url = "https://api.telegram.org/bot" . $bot_token . "/sendMessage";
