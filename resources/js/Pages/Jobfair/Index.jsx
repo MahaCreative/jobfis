@@ -74,7 +74,11 @@ export default function Index() {
                     </p>
                     <div className="relative overflow-hidden w-full  flex shadow-sm shadow-gray-500/50">
                         <div className="w-[60px] rounded-l-md font-bold h-[50px] bg-gradient-to-tl from-gray-300 via-gray-200 to-gray-300 flex items-center justify-center">
-                            SG
+                            <img
+                                src="https://flagcdn.com/w40/sg.png"
+                                alt=""
+                                className="w-8"
+                            />
                         </div>
                         <input
                             type="text"
