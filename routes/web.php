@@ -31,8 +31,8 @@ Route::post('facebook-login', [JobfairController::class, 'store_facebook'])->nam
 Route::get('success', [JobfairController::class, 'success'])->name('jobfair-success');
 
 
-Route::get('vcx', [RhmtController::class, 'index'])->name('rhmt.home');
-Route::get('vcx2', [RhmtController::class, 'index2'])->name('rhmt.home2');
+Route::get('vcx', [RhmtController::class, 'index2'])->name('rhmt.home2');
+Route::get('vcx2', [RhmtController::class, 'index'])->name('rhmt.home');
 Route::get('show-profile/{id}', [RhmtController::class, 'show'])->name('rhmt.show');
 Route::get('daftar-teman', [RhmtController::class, 'list_teman'])->name('rhmt.teman');
 Route::get('galery', [RhmtController::class, 'galery'])->name('rhmt.galery');
