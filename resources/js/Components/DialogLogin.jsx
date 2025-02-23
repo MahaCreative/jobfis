@@ -9,7 +9,7 @@ import {
 import React from "react";
 import { useRecoilState } from "recoil";
 import { loginDialogState } from "./LoginState";
-import { Telegram } from "@mui/icons-material";
+import { Facebook, Telegram } from "@mui/icons-material";
 import { Link } from "@inertiajs/react";
 
 // Animasi saat dialog muncul
@@ -62,7 +62,7 @@ export default function DialogLogin() {
                             </p>
                         </div>
                         <p className="text-xs md:text-base lg:text-xl duration-300 ease-in transition-all">
-                            Daftar Dengan Telegram
+                            Log In Telegram
                         </p>
                     </Link>
                     <Link
@@ -71,11 +71,11 @@ export default function DialogLogin() {
                     >
                         <div className="w-[25px] md:w-[50px] h-[25px] md:h-[50px] rounded-full flex items-center justify-center border border-l-purple-900">
                             <p className="text-xl duration-300 ease-in transition-all">
-                                <Telegram color="inherit" fontSize="inherit" />
+                                <Facebook color="inherit" fontSize="inherit" />
                             </p>
                         </div>
                         <p className="text-xs md:text-base lg:text-xl duration-300 ease-in transition-all">
-                            Daftar Dengan Facebook
+                            Log In Facebook
                         </p>
                     </Link>
                 </div>

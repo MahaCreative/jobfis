@@ -74,13 +74,13 @@ export default function LoadedImage({
                 className="w-full  px-4 py-4 leading-4 hover:cursor-pointer hover:scale-110 transition-all duration-300"
             >
                 <div className="flex gap-3 items-center">
-                    <LazyLoad height={50} offset={100}>
+                    {/* <LazyLoad height={50} offset={100}>
                         <img
                             src={profile}
                             alt=""
                             className="w-[50px] rounded-full"
                         />
-                    </LazyLoad>
+                    </LazyLoad> */}
                     <div>
                         <p className="text-sm line-clamp-1 font-sans text-purple-800">
                             {nama}

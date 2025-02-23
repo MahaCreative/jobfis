@@ -5,3 +5,17 @@
 .gradient1{
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 }
+.scrollAnim{
+    animation: scroll 40s infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-1000px);
+    }
+    100% {
+        transform: translateY(0); /* Sesuaikan tinggi gerakan */
+    }
+}

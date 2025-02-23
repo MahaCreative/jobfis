@@ -23,7 +23,7 @@ export default function RhmtLayout({ children }) {
     // }, []);
     return (
         <div className=" w-full h-screen max-h-[900px] relative">
-            <Head title="Join Group Live" />
+            <Head title="Try Join Live and Group Private" />
             <DialogLogin />
             <div className="flex z-10 fixed w-full  justify-between items-center py-1.5 px-4 md:px-8 lg:px-16 bg-white backdrop-blur-sm">
                 <div className="text-purple-800 flex items-center gap-4">
@@ -37,7 +37,7 @@ export default function RhmtLayout({ children }) {
                         href={route("rhmt.home")}
                         className="font-serif text-base md:text-lg lg:text-2xl font-bold"
                     >
-                        Join Group Private
+                        Try Join Live and Group Private
                     </Link>
                 </div>
                 <div className=" gap-2 md:gap-5 items-center">
@@ -45,7 +45,7 @@ export default function RhmtLayout({ children }) {
                         onClick={() => setLoginDialog(true)}
                         className="text-white bg-purple-500 py-1.5 px-3 rounded-md hover:text-white transition-all duration-300 ease-in-out  font-bold text-xs md:text-lg lg:text-2xl"
                     >
-                        Login / Register
+                        Joinme
                     </button>
                 </div>
             </div>
